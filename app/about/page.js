@@ -16,7 +16,7 @@ const About = () => {
           Our platform focuses on user privacy and ensures that no personal information is collected when shortening links. We also provide a detailed dashboard for users to track their shortened URLs and analyze the statistics behind each link.
         </p>
         <p className="text-lg text-gray-700">
-          Whether you're a business looking to promote your content or an individual looking to share links with friends, NanoNode is the perfect tool for managing your URLs in an efficient way.
+          Whether you&apos;re a business looking to promote your content or an individual looking to share links with friends, NanoNode is the perfect tool for managing your URLs in an efficient way.
         </p>
       </section>
 

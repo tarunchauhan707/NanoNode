@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
-const shortener = () => {
+const Shortener = () => {
   const [Url, Seturl] = useState("");
   const [Shorturl, Setshorturl] = useState("");
   const [Generated, SetGenerated] = useState("");
@@ -108,4 +108,4 @@ const shortener = () => {
   );
 };
 
-export default shortener;
+export default Shortener;

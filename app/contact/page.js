@@ -42,7 +42,7 @@ const Contact = () => {
 
       <section className="bg-[#C1D8C3] max-w-lg mx-auto  p-6 shadow-lg rounded-md">
       <p className="text-lg text-gray-700 text-center mb-6 ">
-          We'd love to hear from you! Please fill out the form below with your message, and we will get back to you as soon as possible.
+         We&rsquo;d love to hear from you! Please fill out the form below with your message, and we will get back to you as soon as possible.
         </p>
         <form onSubmit={handleSubmit} >
             
@@ -87,7 +87,7 @@ const Contact = () => {
 
           <div className="mb-4 text-center">
             <div className="flex justify-center space-x-4">
-                <Link href="/">
+               <Link href="/">
                 <button className="bg-[#B80000] rounded-lg shadow-lg px-5 py-2 font-bold text-white">
                     Back to Home
                 </button>
@@ -103,19 +103,16 @@ const Contact = () => {
             </div>
             </div>
 
-
-
-          {formStatus && (
-            <div className={`text-center ${formStatus === 'Message sent successfully!' ? 'text-green-600' : 'text-red-600'}`}>
+            {formStatus && (
+            <div
+              className={`text-center ${formStatus === 'Message sent successfully!' ? 'text-green-600' : 'text-red-600'}`}
+              aria-live="polite"
+            >
               {formStatus}
             </div>
           )}
         </form>
       </section>
-
-      <footer className="text-center mt-6">
-        
-      </footer>
     </div>
   );
 };
